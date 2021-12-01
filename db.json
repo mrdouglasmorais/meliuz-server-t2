@@ -1,107 +1,75 @@
 {
   "products": [
     {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 1
+      "id": 0,
+      "name": "The Legend of Zelda",
+      "price": 250,
+      "image": "https://images-americanas.b2w.io/produtos/3709438843/imagens/zelda-skyward-sword-nintendo-switch/3709438843_1_large.jpg",
+      "offer": false,
+      "category": [2, 4],
+      "description": "The Legend of Zelda: Skyward Sword HD Nintendo Switch",
+      "discount": 2
     },
     {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 2
+      "id": 1,
+      "name": "Mario 64",
+      "price": 250,
+      "image": "https://static.wikia.nocookie.net/davidholandaone/images/3/3e/Super_Mario_64.jpg/revision/latest?cb=20210406193135&path-prefix=pt-br",
+      "offer": false,
+      "category": [0, 5],
+      "description": "Super Mario 64, (lançado em 23 de junho de 1996) é um jogo de plataforma 3D desenvolvido pela Nintendo e um título de lançamento para o Nintendo 64.",
+      "discount": 2
     },
     {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 3
+      "id": 2,
+      "name": "Hotline Miami",
+      "price": 20,
+      "image": "https://image.api.playstation.com/cdn/UP3643/CUSA00486_00/T1mmY3q3rilwXOL7WddwzgEChcdIJaAz.png?w=440",
+      "offer": true,
+      "category": [0, 5],
+      "description": "Hotline Miami é um explosivo jogo de ação cheio de brutalidade crua, fogo cruzado e combate selvagem corpo a corpo. Em um Miami alternativo de 1989, você será um anti-herói.",
+      "discount": 2
     },
     {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 4
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 5
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 6
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 7
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 8
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 9
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 10
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 11
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 12
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 13
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 14
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 15
-    },
-    {
-      "name": "Iphone",
-      "price": "3000",
-      "category": "phone",
-      "id": 16
+      "id": 3,
+      "name": "Meia Donkey Kong",
+      "price": 40,
+      "image": "data:image/jpeg;base64,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",
+      "offer": true,
+      "category": [6],
+      "description": "Hotline Miami é um explosivo jogo de ação cheio de brutalidade crua, fogo cruzado e combate selvagem corpo a corpo. Em um Miami alternativo de 1989, você será um anti-herói.",
+      "discount": 2
     }
   ],
-  "categories": [],
-  "person": [
-    {"name": "Melquias"},
-    {"name": "Rebeca"},
-    {"name": "Bruno"},
-    {"name": "Ian"}
-  ]
+  "categories": [
+    {
+      "id": 0,
+      "name": "Ação"
+    },
+    {
+      "id": 1,
+      "name": "Aventura"
+    },
+    {
+      "id": 2,
+      "name": "RPG"
+    },
+    {
+      "id": 3,
+      "name": "Esportes"
+    },
+    {
+      "id": 4,
+      "name": "Estratégia"
+    },
+    {
+      "id": 5,
+      "name": "Clássicos"
+    },
+    {
+      "id": 6,
+      "name": "Meias"
+    }
+  ],
+  "newsletter": []
 }
